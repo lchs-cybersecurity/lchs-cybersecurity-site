@@ -7,22 +7,26 @@
 
     </head>
 
-    <body>
+    <body id="top">
 
-        <div class="terminal">
-            <div style="width: fit-content">
-                <h1 id="site-title">Cybersecurity Club</h1>
+        <header class="terminal">
+            <div id="title-block">
+                <div class="typing-container">
+                    <h1 id="title-text" class="typing-effect">Cybersecurity Club</h1>
+                </div>
+                <div class="typing-container">
+                    <h2 id="subtitle-text" class="typing-effect" style="animation-delay: 4s">at La Canada High School</h2>
+                </div>
             </div>
-        </div>
 
-        <div class="terminal navbar">
-            <a href="#site-title">~</a>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-        </div>
+            <div class="navbar">
+                <a href="#top">~</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+            </div>
+        </header>
 
-        <div class="content">
-
+        <div id="content">
             <div class="block-background" style="background-image: url('./assets/stock-photo.jpg')"></div>
             <div class="block">
                 <div id="about" class="block-title">About</div>
@@ -33,26 +37,20 @@
             </div>
 
             <div class="block">
-                <div id="projects" class="block-title">Ongoing Projects</div>
+                <div id="projects" class="block-title">Projects</div>
                 <div class="block-content">
                     <p> Mauris et pharetra lectus, in tincidunt dolor. Pellentesque in eros et lorem consequat interdum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur eget mattis purus, in rutrum leo. Nullam et dignissim diam, in porta ipsum. Phasellus ultrices lobortis sapien a pellentesque. Nulla ac felis accumsan, accumsan elit eu, sodales eros. Nullam egestas, lectus vel molestie consectetur, ex purus varius dui, ut euismod risus tellus id enim. </p>
-                    <div class="github-card" data-github="turtlebasket/phishy" data-width="400" data-height="130" ></div>
+                    <div>
+                        <div class="github-card" data-github="turtlebasket/phishy" data-width="400" data-height="130" ></div>
+                    </div>
                 </div>
             </div>
-
-
         </div>
 
         <footer class="terminal">
-            <p>
-                <a href="https://www.lcusd.net/">LCUSD School District</a>
-            </p>
-            <p>
-                <a href="https://www.lchsspartans.net/">La Canada High School</a>
-                4463 Oak Grove Drive, La Cañada, CA 91011
-            </p>
+            <p><a href="https://www.lcusd.net/">LCUSD School District</a></p>
+            <p><a href="https://www.lchsspartans.net/">La Canada High School</a> 4463 Oak Grove Drive, La Cañada, CA 91011</p>
         </footer>
-
 
         <script src="js/jquery.min.js"></script>
         <script src="js/index.js"></script>
