@@ -43,13 +43,22 @@ header {
   background-color: #111111;
 }
 
-a:link, a:visited {
+.terminal a:link, a:visited {
   color: #ffffff;
 }
 
-a:hover {
+.terminal a:hover {
   color: #00ff00;
 }
+
+a:link, a:visited {
+  color: #00aa00;
+}
+
+a:hover {
+  color: #00cc00;
+}
+
 
 
 .terminal {
@@ -212,6 +221,10 @@ a:hover {
 
 .anchor {
   position: absolute;
+}
+
+.center-container {
+  text-align: center;
 }
 
 footer {
