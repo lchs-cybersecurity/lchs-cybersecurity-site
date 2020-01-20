@@ -25,9 +25,16 @@ $(window).scroll(function() {
     $("#title-text").css("font-size", `${fontSize}px`)
     var opacity = getScrolledValue(scrollY*0.01, 0, 1)
     $("#subtitle-text").css("opacity", `${opacity}`)
+    $("#subtitle-text").css("visibility", `${opacity > 0 ? "visible" : "hidden"}`)
 
     var contentMargin = $("header").height()
     $("#content").css("margin-top", contentMargin)
+
+    $(".anchor").each(function() {
+        var actual = $(`#${$(this).attr("id")}-anchor`)
+        var offset = actual.offset().top;
+        $(this).css("top", offset - contentMargin - 60)
+    })
 })
 
 function getScrolledValue(scroll, min, max) {

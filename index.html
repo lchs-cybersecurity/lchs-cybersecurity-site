@@ -7,7 +7,7 @@
 
     </head>
 
-    <body id="top">
+    <body>
 
         <header class="terminal">
             <div id="title-block">
@@ -29,26 +29,32 @@
         <div id="content">
             <div class="block-background" style="background-image: url('./assets/stock-photo.jpg')"></div>
             <div class="block">
-                <div id="about" class="block-title">About</div>
+                <a id="about" class="anchor"></a>
+                <div id="about-anchor" class="block-title">What do we do?</div>
                 <div class="block-content">
 					<p>We're a group of students who work in coordination with the District Tech Department to keep LCUSD's students and staff members safe from threats to our IT security. In an age where public institutions such as schools, hospitals and businesses are increasingly becoming the targets of relentless cyberattacks, it's up to us to stay ahead of the curve and keep LCUSD secure.</p>
                 </div>
             </div>
-
             <div class="block">
-                <div id="projects" class="block-title">Projects</div>
-                <div class="block-content">
-					<ul>
-						<li>
-							<h3>Phishy</h3>
-							<p>Phishy is a series of decoy "phishing" emails that are sent out in succession in order to assess how the staff of LCUSD would respond to phishing attacks. This allows us to more effectively allocate certain technologies and resources where we need to as well as personalize teacher training on a targeted, per-individual basis.</p>
-							<div class="github-card" data-github="turtlebasket/phishy" data-width="400" data-height="130" ></div>
-						</li>
-						<li>
-							<h3>LCUSD Verifier</h3>
-							<p>LCUSD Verifier is a web extension for the Chrome browser that checks whether a purported sender is from within LCUSD, saving the user extra steps in checking for a phishing attack. <u>NOTE: LCUSD Verifier is currently in development.</u></p>
-						</li>
-					</ul>
+                <a id="projects" class="anchor"></a>
+                <div id="projects-anchor" class="block-title">Projects</div>
+            </div>
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card-title">phishy</div>
+                    <div class="card-content">
+                        <p>phishy is a series of decoy "phishing" emails that are sent out in succession in order to assess how the staff of LCUSD would respond to phishing attacks. This allows us to more effectively allocate certain technologies and resources where we need to as well as personalize teacher training on a targeted, per-individual basis.</p>
+                        <div style="text-align: center;">
+                            <div class="github-card" data-github="turtlebasket/phishy" data-width="400" data-height="130"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-title">LCUSD Verifier</div>
+                    <div class="card-content">
+                        <img class="shield" src="https://img.shields.io/static/v1?label=status&message=in-development&color=ffcc00">
+                        <p>LCUSD Verifier is a web extension for the Chrome browser that checks whether a purported sender is from within LCUSD, saving the user extra steps in checking for a phishing attack.</p>
+                    </div>
                 </div>
             </div>
         </div>
