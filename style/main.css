@@ -10,12 +10,7 @@
 body {
   margin: 0;
   font-family: Verdana, Roboto, sans-serif;
-}
-
-.content {
-  font-size: 16px;
-  padding-left: 20px;
-  padding-right: 20px;
+  background-color: #ffffff;
 }
 
 .navbar {
@@ -36,7 +31,7 @@ body {
   background-color: #111111;
 }
 
-a:visited {
+a:link, a:visited {
   color: #ffffff;
 }
 
@@ -52,7 +47,7 @@ a:hover {
   padding: 8px;
 }
 
-#title {
+#site-title {
   font-size: 42px;
   margin-bottom: 0;
   overflow: hidden;
@@ -60,6 +55,59 @@ a:hover {
   border-right: .5em solid #ffffff;
   animation: typing 2s steps(19, end), blink-caret 1s step-end infinite 2s;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .block {
+    width: 100vw;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .block {
+    width: 500px;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .block {
+    width: 600px;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .block {
+    width: 800px;
+  }
+}
+
+.block {
+  display: block;
+  margin: 20px auto 40px auto;
+  padding: 16px;
+  background-color: #ffffff;
+}
+
+.block-background {
+  width: 100vw;
+  height: 200px;
+  margin-bottom: -100px;
+  background-color: #999999;
+  background-blend-mode: multiply;
+}
+
+.block-title {
+  font-family: "Ubuntu Mono";
+  font-size: 36px;
+  text-align: center;
+}
+
+.block-content {
+  padding: 0px 16px 0px 16px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
 
 @keyframes typing {
   from { width: 0 }
@@ -72,5 +120,6 @@ a:hover {
 }
 
 footer {
+  padding-top: 40px !important;
   text-align: center;
 }
