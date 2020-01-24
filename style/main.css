@@ -235,6 +235,12 @@ a:hover {
   }
 }
 
+.warning {
+  margin-top: -50px;
+  border-radius: 10px;
+  background-color: #ffff80;
+}
+
 .shield {
   padding-top: 8px;
   margin-bottom: -8px;
