@@ -52,15 +52,10 @@ header {
   text-align: center;
   padding: 14px 16px 24px;
   font-size: 20px;
-  color: #ffffff;
 }
 
 .navbar a:hover {
   background-color: #111111;
-}
-
-.terminal a:link, a:visited {
-  color: #ffffff;
 }
 
 .terminal a:hover {
@@ -247,6 +242,10 @@ a:hover {
 
 .anchor {
   position: absolute;
+}
+
+.icon-container {
+  text-decoration: none;
 }
 
 .icon {
