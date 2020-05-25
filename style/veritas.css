@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela&family=Work+Sans:wght@500&display=swap');
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    background: linear-gradient(135deg, #006335 0%, #003e4d 100%) fixed 100% 100%;
+}
+
+.veritas-header {
+    padding: 50px 50px;
+}
+
+.veritas-title {
+    color: #89c9a1;
+    font-family: "Consolas";
+    font-size: 52px;
+
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+}
+
+.veritas-section {
+    background: linear-gradient(135deg, rgb(14, 163, 76) 10%, rgb(18, 100, 87) 105%); 
+    border-radius: 15px;
+    min-height: 150px;
+    width: 600px;
+    padding: 20px 56px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 56px;
+
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+}
+
+.veritas-section-title {
+    color: #89c9a1;
+    font-family: "Consolas";
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+.veritas-text, .veritas-text > * {
+    color: #89c9a1;
+    font-family: "Work Sans";
+    font-size: 20px;
+}
+
+.veritas-text a {
+    color: #89c9a1
+}
