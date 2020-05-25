@@ -7,6 +7,10 @@ body {
     background: linear-gradient(135deg, #006335 0%, #003e4d 100%) fixed 100% 100%;
 }
 
+img {
+    border-radius: 15px
+}
+
 .veritas-header {
     padding: 50px 50px;
 }
@@ -29,7 +33,7 @@ body {
     padding: 20px 56px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 56px;
+    margin-bottom: 36px;
 
     -moz-user-select: none; 
     -ms-user-select: none; 
