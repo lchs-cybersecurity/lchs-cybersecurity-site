@@ -19,11 +19,11 @@ img {
     border-radius: 15px
 }
 
-.veritas-header {
+.aspys-header {
     padding: 50px 50px;
 }
 
-.veritas-title {
+.aspys-title {
     color: #dafae6;
     font-family: "Ubuntu Mono";
     font-size: 52px;
@@ -33,7 +33,7 @@ img {
     user-select: none; 
 }
 
-.veritas-section {
+.aspys-section {
     background: linear-gradient(135deg, rgb(14, 163, 76) 10%, rgb(18, 100, 87) 105%); 
     border-radius: 15px;
     min-height: 150px;
@@ -48,19 +48,19 @@ img {
     user-select: none; 
 }
 
-.veritas-section-title {
+.aspys-section-title {
     color: #dafae6;
     font-family: "Ubuntu Mono";
     font-size: 28px;
     text-decoration: underline;
 }
 
-.veritas-text, .veritas-text > * {
+.aspys-text, .aspys-text > * {
     color: #dafae6;
     font-family: "Ubuntu";
     font-size: 19px;
 }
 
-.veritas-text a {
+.aspys-text a {
     color: #77ffab
 }
