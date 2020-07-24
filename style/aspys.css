@@ -55,6 +55,13 @@ img {
     text-decoration: underline;
 }
 
+.aspys-section-subtitle {
+    color: #dafae6;
+    font-family: "Ubuntu Mono";
+    font-size: 20px;
+    text-decoration: underline;
+}
+
 .aspys-text, .aspys-text > * {
     color: #dafae6;
     font-family: "Ubuntu";
